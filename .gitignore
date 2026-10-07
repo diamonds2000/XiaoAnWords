@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode
+# 工程配置（project.pbxproj / contents.xcworkspacedata）需保留跟踪
+# 仅排除用户私有状态、断点、scheme 个人偏好
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# 构建产物与派生数据
+build/
+DerivedData/
+*.o
+*.a
+*.dylib
+*.swiftmodule
+*.swiftdoc
+*.swiftsourceinfo
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+Packages/
+Package.pins
+
+# CocoaPods（预留）
+Pods/
+
+# fastlane（预留）
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# 其他工具临时文件
+*.xcscmblueprint
+*.xcfilelist
