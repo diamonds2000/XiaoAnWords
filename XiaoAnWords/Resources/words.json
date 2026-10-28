@@ -1,260 +1,2858 @@
 [
-  {"id":"book","en":"book","zh":"书","grade":"1A","theme":"文具","syn":null},
-  {"id":"pen","en":"pen","zh":"钢笔","grade":"1A","theme":"文具","syn":null},
-  {"id":"pencil","en":"pencil","zh":"铅笔","grade":"1A","theme":"文具","syn":null},
-  {"id":"ruler","en":"ruler","zh":"尺子","grade":"1A","theme":"文具","syn":null},
-  {"id":"rubber","en":"rubber","zh":"橡皮","grade":"1A","theme":"文具","syn":null},
-  {"id":"bag","en":"bag","zh":"书包","grade":"1A","theme":"文具","syn":null},
-  {"id":"pencil_case","en":"pencil case","zh":"文具盒","grade":"1A","theme":"文具","syn":null},
-  {"id":"desk","en":"desk","zh":"书桌","grade":"1A","theme":"文具","syn":null},
-
-  {"id":"one","en":"one","zh":"一","grade":"1A","theme":"数字","syn":null},
-  {"id":"two","en":"two","zh":"二","grade":"1A","theme":"数字","syn":null},
-  {"id":"three","en":"three","zh":"三","grade":"1A","theme":"数字","syn":null},
-  {"id":"four","en":"four","zh":"四","grade":"1A","theme":"数字","syn":null},
-  {"id":"five","en":"five","zh":"五","grade":"1A","theme":"数字","syn":null},
-  {"id":"six","en":"six","zh":"六","grade":"1A","theme":"数字","syn":null},
-  {"id":"seven","en":"seven","zh":"七","grade":"1A","theme":"数字","syn":null},
-  {"id":"eight","en":"eight","zh":"八","grade":"1A","theme":"数字","syn":null},
-  {"id":"nine","en":"nine","zh":"九","grade":"1A","theme":"数字","syn":null},
-  {"id":"ten","en":"ten","zh":"十","grade":"1A","theme":"数字","syn":null},
-
-  {"id":"read","en":"read","zh":"读","grade":"1A","theme":"动作","syn":null},
-  {"id":"write","en":"write","zh":"写","grade":"1A","theme":"动作","syn":null},
-  {"id":"draw","en":"draw","zh":"画","grade":"1A","theme":"动作","syn":null},
-  {"id":"sing","en":"sing","zh":"唱","grade":"1A","theme":"动作","syn":null},
-  {"id":"dance","en":"dance","zh":"跳舞","grade":"1A","theme":"动作","syn":null},
-  {"id":"jump","en":"jump","zh":"跳","grade":"1A","theme":"动作","syn":null},
-  {"id":"clean","en":"clean","zh":"打扫","grade":"1A","theme":"动作","syn":null},
-
-  {"id":"face","en":"face","zh":"脸","grade":"1A","theme":"身体","syn":null},
-  {"id":"eye","en":"eye","zh":"眼睛","grade":"1A","theme":"身体","syn":null},
-  {"id":"ear","en":"ear","zh":"耳朵","grade":"1A","theme":"身体","syn":null},
-  {"id":"nose","en":"nose","zh":"鼻子","grade":"1A","theme":"身体","syn":null},
-  {"id":"mouth","en":"mouth","zh":"嘴","grade":"1A","theme":"身体","syn":null},
-  {"id":"hair","en":"hair","zh":"头发","grade":"1A","theme":"身体","syn":null},
-
-  {"id":"i","en":"I","zh":"我","grade":"1A","theme":"家庭","syn":null},
-  {"id":"my","en":"my","zh":"我的","grade":"1A","theme":"家庭","syn":null},
-  {"id":"you","en":"you","zh":"你","grade":"1A","theme":"家庭","syn":null},
-  {"id":"mum","en":"mum","zh":"妈妈","grade":"1A","theme":"家庭","syn":null},
-  {"id":"dad","en":"dad","zh":"爸爸","grade":"1A","theme":"家庭","syn":null},
-  {"id":"family","en":"family","zh":"家庭","grade":"1A","theme":"家庭","syn":null},
-  {"id":"grandma","en":"grandma","zh":"奶奶","grade":"1A","theme":"家庭","syn":null},
-  {"id":"grandpa","en":"grandpa","zh":"爷爷","grade":"1A","theme":"家庭","syn":null},
-
-  {"id":"red","en":"red","zh":"红色","grade":"1A","theme":"颜色","syn":null},
-  {"id":"yellow","en":"yellow","zh":"黄色","grade":"1A","theme":"颜色","syn":null},
-  {"id":"blue","en":"blue","zh":"蓝色","grade":"1A","theme":"颜色","syn":null},
-  {"id":"green","en":"green","zh":"绿色","grade":"1A","theme":"颜色","syn":null},
-
-  {"id":"hello","en":"hello","zh":"你好","grade":"1A","theme":"问候","syn":null},
-  {"id":"hi","en":"hi","zh":"嗨","grade":"1A","theme":"问候","syn":null},
-  {"id":"goodbye","en":"goodbye","zh":"再见","grade":"1A","theme":"问候","syn":null},
-  {"id":"thank_you","en":"thank you","zh":"谢谢","grade":"1A","theme":"问候","syn":null},
-  {"id":"please","en":"please","zh":"请","grade":"1A","theme":"问候","syn":null},
-
-  {"id":"apple","en":"apple","zh":"苹果","grade":"1B","theme":"水果","syn":null},
-  {"id":"orange","en":"orange","zh":"橙子","grade":"1B","theme":"水果","syn":null},
-  {"id":"peach","en":"peach","zh":"桃子","grade":"1B","theme":"水果","syn":null},
-  {"id":"pear","en":"pear","zh":"梨","grade":"1B","theme":"水果","syn":null},
-  {"id":"lemon","en":"lemon","zh":"柠檬","grade":"1B","theme":"水果","syn":null},
-
-  {"id":"rice","en":"rice","zh":"米饭","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"egg","en":"egg","zh":"鸡蛋","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"noodles","en":"noodles","zh":"面条","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"soup","en":"soup","zh":"汤","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"milk","en":"milk","zh":"牛奶","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"water","en":"water","zh":"水","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"juice","en":"juice","zh":"果汁","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"cola","en":"cola","zh":"可乐","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"biscuit","en":"biscuit","zh":"饼干","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"jelly","en":"jelly","zh":"果冻","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"sweet","en":"sweet","zh":"糖果","grade":"1B","theme":"食物饮料","syn":null},
-  {"id":"ice_cream","en":"ice cream","zh":"冰淇淋","grade":"1B","theme":"食物饮料","syn":null},
-
-  {"id":"cat","en":"cat","zh":"猫","grade":"1B","theme":"动物","syn":null},
-  {"id":"dog","en":"dog","zh":"狗","grade":"1B","theme":"动物","syn":null},
-  {"id":"chick","en":"chick","zh":"小鸡","grade":"1B","theme":"动物","syn":null},
-  {"id":"duck","en":"duck","zh":"鸭子","grade":"1B","theme":"动物","syn":null},
-  {"id":"pig","en":"pig","zh":"猪","grade":"1B","theme":"动物","syn":null},
-  {"id":"sheep","en":"sheep","zh":"羊","grade":"1B","theme":"动物","syn":null},
-  {"id":"rabbit","en":"rabbit","zh":"兔子","grade":"1B","theme":"动物","syn":null},
-  {"id":"frog","en":"frog","zh":"青蛙","grade":"1B","theme":"动物","syn":null},
-  {"id":"bird","en":"bird","zh":"鸟","grade":"1B","theme":"动物","syn":null},
-  {"id":"bee","en":"bee","zh":"蜜蜂","grade":"1B","theme":"动物","syn":null},
-  {"id":"butterfly","en":"butterfly","zh":"蝴蝶","grade":"1B","theme":"动物","syn":null},
-  {"id":"panda","en":"panda","zh":"熊猫","grade":"1B","theme":"动物","syn":null},
-  {"id":"monkey","en":"monkey","zh":"猴子","grade":"1B","theme":"动物","syn":null},
-  {"id":"tiger","en":"tiger","zh":"老虎","grade":"1B","theme":"动物","syn":null},
-  {"id":"bear","en":"bear","zh":"熊","grade":"1B","theme":"动物","syn":null},
-  {"id":"lion","en":"lion","zh":"狮子","grade":"1B","theme":"动物","syn":null},
-
-  {"id":"weather","en":"weather","zh":"天气","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"sunny","en":"sunny","zh":"晴朗的","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"rainy","en":"rainy","zh":"下雨的","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"windy","en":"windy","zh":"刮风的","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"cloudy","en":"cloudy","zh":"多云的","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"spring","en":"spring","zh":"春天","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"summer","en":"summer","zh":"夏天","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"autumn","en":"autumn","zh":"秋天","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"winter","en":"winter","zh":"冬天","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"hot","en":"hot","zh":"热的","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"warm","en":"warm","zh":"温暖的","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"cool","en":"cool","zh":"凉爽的","grade":"1B","theme":"天气季节","syn":null},
-  {"id":"cold","en":"cold","zh":"冷的","grade":"1B","theme":"天气季节","syn":null},
-
-  {"id":"clothes","en":"clothes","zh":"衣服","grade":"1B","theme":"服装","syn":null},
-  {"id":"tshirt","en":"T-shirt","zh":"T恤","grade":"1B","theme":"服装","syn":null},
-  {"id":"dress","en":"dress","zh":"连衣裙","grade":"1B","theme":"服装","syn":null},
-  {"id":"blouse","en":"blouse","zh":"女衬衫","grade":"1B","theme":"服装","syn":null},
-  {"id":"shorts","en":"shorts","zh":"短裤","grade":"1B","theme":"服装","syn":null},
-  {"id":"trousers","en":"trousers","zh":"长裤","grade":"1B","theme":"服装","syn":null},
-  {"id":"hat","en":"hat","zh":"帽子","grade":"1B","theme":"服装","syn":null},
-  {"id":"shoes","en":"shoes","zh":"鞋子","grade":"1B","theme":"服装","syn":null},
-  {"id":"socks","en":"socks","zh":"袜子","grade":"1B","theme":"服装","syn":null},
-
-  {"id":"ball","en":"ball","zh":"球","grade":"1B","theme":"玩具","syn":null},
-  {"id":"kite","en":"kite","zh":"风筝","grade":"1B","theme":"玩具","syn":null},
-  {"id":"doll","en":"doll","zh":"娃娃","grade":"1B","theme":"玩具","syn":null},
-  {"id":"bicycle","en":"bicycle","zh":"自行车","grade":"1B","theme":"玩具","syn":null},
-  {"id":"toy_car","en":"toy car","zh":"玩具车","grade":"1B","theme":"玩具","syn":null},
-  {"id":"toy_boat","en":"toy boat","zh":"玩具船","grade":"1B","theme":"玩具","syn":null},
-  {"id":"toy_train","en":"toy train","zh":"玩具火车","grade":"1B","theme":"玩具","syn":null},
-  {"id":"gift","en":"gift","zh":"礼物","grade":"1B","theme":"玩具","syn":null},
-
-  {"id":"swing","en":"swing","zh":"秋千","grade":"1B","theme":"游乐场","syn":null},
-  {"id":"slide","en":"slide","zh":"滑梯","grade":"1B","theme":"游乐场","syn":null},
-  {"id":"seesaw","en":"seesaw","zh":"跷跷板","grade":"1B","theme":"游乐场","syn":null},
-
-  {"id":"park","en":"park","zh":"公园","grade":"2A","theme":"场所","syn":null},
-  {"id":"road","en":"road","zh":"马路","grade":"2A","theme":"场所","syn":null},
-  {"id":"building","en":"building","zh":"楼房","grade":"2A","theme":"场所","syn":null},
-  {"id":"bin","en":"bin","zh":"垃圾桶","grade":"2A","theme":"场所","syn":null},
-  {"id":"school","en":"school","zh":"学校","grade":"2A","theme":"场所","syn":null},
-
-  {"id":"bus","en":"bus","zh":"公交车","grade":"2A","theme":"交通","syn":null},
-  {"id":"car","en":"car","zh":"小汽车","grade":"2A","theme":"交通","syn":null},
-  {"id":"taxi","en":"taxi","zh":"出租车","grade":"2A","theme":"交通","syn":null},
-  {"id":"train","en":"train","zh":"火车","grade":"2A","theme":"交通","syn":null},
-  {"id":"plane","en":"plane","zh":"飞机","grade":"2A","theme":"交通","syn":"aircraft"},
-  {"id":"ferry","en":"ferry","zh":"渡轮","grade":"2A","theme":"交通","syn":null},
-
-  {"id":"hot_dog","en":"hot dog","zh":"热狗","grade":"2A","theme":"食物","syn":null},
-  {"id":"pizza","en":"pizza","zh":"披萨","grade":"2A","theme":"食物","syn":null},
-  {"id":"hamburger","en":"hamburger","zh":"汉堡包","grade":"2A","theme":"食物","syn":null},
-  {"id":"pie","en":"pie","zh":"派","grade":"2A","theme":"食物","syn":null},
-
-  {"id":"run","en":"run","zh":"跑","grade":"2A","theme":"动作","syn":null},
-  {"id":"swim","en":"swim","zh":"游泳","grade":"2A","theme":"动作","syn":null},
-  {"id":"sleep","en":"sleep","zh":"睡觉","grade":"2A","theme":"动作","syn":null},
-  {"id":"play","en":"play","zh":"玩","grade":"2A","theme":"动作","syn":null},
-  {"id":"skip","en":"skip","zh":"跳绳","grade":"2A","theme":"动作","syn":null},
-  {"id":"ride","en":"ride","zh":"骑","grade":"2A","theme":"动作","syn":null},
-  {"id":"fly","en":"fly","zh":"飞","grade":"2A","theme":"动作","syn":null},
-
-  {"id":"teacher","en":"teacher","zh":"老师","grade":"2B","theme":"职业","syn":null},
-  {"id":"doctor","en":"doctor","zh":"医生","grade":"2B","theme":"职业","syn":null},
-  {"id":"nurse","en":"nurse","zh":"护士","grade":"2B","theme":"职业","syn":null},
-  {"id":"cook","en":"cook","zh":"厨师","grade":"2B","theme":"职业","syn":null},
-  {"id":"driver","en":"driver","zh":"司机","grade":"2B","theme":"职业","syn":null},
-  {"id":"fireman","en":"fireman","zh":"消防员","grade":"2B","theme":"职业","syn":null},
-  {"id":"farmer","en":"farmer","zh":"农民","grade":"2B","theme":"职业","syn":null},
-  {"id":"fisherman","en":"fisherman","zh":"渔夫","grade":"2B","theme":"职业","syn":null},
-
-  {"id":"uncle","en":"uncle","zh":"叔叔","grade":"2B","theme":"家庭","syn":null},
-  {"id":"aunt","en":"aunt","zh":"阿姨","grade":"2B","theme":"家庭","syn":null},
-  {"id":"cousin","en":"cousin","zh":"表亲","grade":"2B","theme":"家庭","syn":null},
-
-  {"id":"friend","en":"friend","zh":"朋友","grade":"2B","theme":"称呼","syn":null},
-  {"id":"classmate","en":"classmate","zh":"同学","grade":"2B","theme":"称呼","syn":null},
-  {"id":"miss","en":"Miss","zh":"小姐","grade":"2B","theme":"称呼","syn":null},
-  {"id":"mr","en":"Mr","zh":"先生","grade":"2B","theme":"称呼","syn":null},
-  {"id":"mrs","en":"Mrs","zh":"夫人","grade":"2B","theme":"称呼","syn":null},
-
-  {"id":"card","en":"card","zh":"卡片","grade":"2B","theme":"节日","syn":null},
-  {"id":"firework","en":"firework","zh":"烟花","grade":"2B","theme":"节日","syn":null},
-  {"id":"firecracker","en":"firecracker","zh":"鞭炮","grade":"2B","theme":"节日","syn":null},
-  {"id":"new_year","en":"New Year","zh":"新年","grade":"2B","theme":"节日","syn":null},
-  {"id":"party","en":"party","zh":"聚会","grade":"2B","theme":"节日","syn":null},
-
-  {"id":"classroom","en":"classroom","zh":"教室","grade":"3A","theme":"学校","syn":null},
-  {"id":"library","en":"library","zh":"图书馆","grade":"3A","theme":"学校","syn":null},
-  {"id":"hall","en":"hall","zh":"大厅","grade":"3A","theme":"学校","syn":null},
-  {"id":"playground","en":"playground","zh":"操场","grade":"3A","theme":"学校","syn":null},
-  {"id":"toilet","en":"toilet","zh":"厕所","grade":"3A","theme":"学校","syn":null},
-
-  {"id":"fat","en":"fat","zh":"胖的","grade":"3A","theme":"形容词","syn":null},
-  {"id":"thin","en":"thin","zh":"瘦的","grade":"3A","theme":"形容词","syn":null},
-  {"id":"tall","en":"tall","zh":"高的","grade":"3A","theme":"形容词","syn":null},
-  {"id":"short","en":"short","zh":"矮的","grade":"3A","theme":"形容词","syn":null},
-  {"id":"big","en":"big","zh":"大的","grade":"3A","theme":"形容词","syn":null},
-  {"id":"small","en":"small","zh":"小的","grade":"3A","theme":"形容词","syn":null},
-  {"id":"beautiful","en":"beautiful","zh":"美丽的","grade":"3A","theme":"形容词","syn":null},
-
-  {"id":"head","en":"head","zh":"头","grade":"3A","theme":"身体","syn":null},
-  {"id":"shoulder","en":"shoulder","zh":"肩膀","grade":"3A","theme":"身体","syn":null},
-  {"id":"knee","en":"knee","zh":"膝盖","grade":"3A","theme":"身体","syn":null},
-  {"id":"body","en":"body","zh":"身体","grade":"3A","theme":"身体","syn":null},
-
-  {"id":"flower","en":"flower","zh":"花","grade":"3A","theme":"植物","syn":null},
-  {"id":"leaf","en":"leaf","zh":"叶子","grade":"3A","theme":"植物","syn":"leaf"},
-  {"id":"leaves","en":"leaves","zh":"树叶","grade":"3A","theme":"植物","syn":"leaf"},
-  {"id":"branch","en":"branch","zh":"树枝","grade":"3A","theme":"植物","syn":null},
-  {"id":"root","en":"root","zh":"根","grade":"3A","theme":"植物","syn":null},
-
-  {"id":"eleven","en":"eleven","zh":"十一","grade":"3A","theme":"数字","syn":null},
-  {"id":"twelve","en":"twelve","zh":"十二","grade":"3A","theme":"数字","syn":null},
-  {"id":"thirteen","en":"thirteen","zh":"十三","grade":"3A","theme":"数字","syn":null},
-  {"id":"fourteen","en":"fourteen","zh":"十四","grade":"3A","theme":"数字","syn":null},
-  {"id":"fifteen","en":"fifteen","zh":"十五","grade":"3A","theme":"数字","syn":null},
-
-  {"id":"aeroplane","en":"aeroplane","zh":"飞机","grade":"3B","theme":"交通","syn":"aircraft"},
-  {"id":"skateboard","en":"skateboard","zh":"滑板","grade":"3B","theme":"交通","syn":null},
-  {"id":"ship","en":"ship","zh":"轮船","grade":"3B","theme":"交通","syn":null},
-
-  {"id":"circle","en":"circle","zh":"圆形","grade":"3B","theme":"形状","syn":null},
-  {"id":"triangle","en":"triangle","zh":"三角形","grade":"3B","theme":"形状","syn":null},
-  {"id":"rectangle","en":"rectangle","zh":"长方形","grade":"3B","theme":"形状","syn":null},
-
-  {"id":"hear","en":"hear","zh":"听见","grade":"3B","theme":"感官","syn":null},
-  {"id":"listen","en":"listen","zh":"听","grade":"3B","theme":"感官","syn":null},
-  {"id":"see","en":"see","zh":"看见","grade":"3B","theme":"感官","syn":null},
-  {"id":"touch","en":"touch","zh":"摸","grade":"3B","theme":"感官","syn":null},
-  {"id":"taste","en":"taste","zh":"尝","grade":"3B","theme":"感官","syn":null},
-  {"id":"smell","en":"smell","zh":"闻","grade":"3B","theme":"感官","syn":null},
-
-  {"id":"can","en":"can","zh":"能","grade":"3B","theme":"常用表达","syn":null},
-  {"id":"cannot","en":"cannot","zh":"不能","grade":"3B","theme":"常用表达","syn":"cannot"},
-  {"id":"cant","en":"can't","zh":"不能","grade":"3B","theme":"常用表达","syn":"cannot"},
-  {"id":"do_not","en":"do not","zh":"不","grade":"3B","theme":"常用表达","syn":"donot"},
-  {"id":"dont","en":"don't","zh":"不要","grade":"3B","theme":"常用表达","syn":"donot"},
-  {"id":"let_us","en":"let us","zh":"让我们","grade":"3B","theme":"常用表达","syn":"letus"},
-  {"id":"lets","en":"let's","zh":"让我们","grade":"3B","theme":"常用表达","syn":"letus"},
-  {"id":"some","en":"some","zh":"一些","grade":"3B","theme":"常用表达","syn":null},
-  {"id":"sure","en":"sure","zh":"当然","grade":"3B","theme":"常用表达","syn":null},
-  {"id":"together","en":"together","zh":"一起","grade":"3B","theme":"常用表达","syn":null},
-
-  {"id":"river","en":"river","zh":"河","grade":"3B","theme":"自然","syn":null},
-  {"id":"beach","en":"beach","zh":"海滩","grade":"3B","theme":"自然","syn":null},
-  {"id":"picnic","en":"picnic","zh":"野餐","grade":"3B","theme":"自然","syn":null},
-
-  {"id":"stand_up","en":"stand up","zh":"起立","grade":"common","theme":"短语","syn":null},
-  {"id":"sit_down","en":"sit down","zh":"坐下","grade":"common","theme":"短语","syn":null},
-  {"id":"come_here","en":"come here","zh":"过来","grade":"common","theme":"短语","syn":null},
-  {"id":"go_away","en":"go away","zh":"走开","grade":"common","theme":"短语","syn":null},
-  {"id":"look_at","en":"look at","zh":"看","grade":"common","theme":"短语","syn":null},
-  {"id":"listen_to","en":"listen to","zh":"听","grade":"common","theme":"短语","syn":null},
-  {"id":"would_like","en":"would like","zh":"想要","grade":"common","theme":"短语","syn":null},
-  {"id":"how_many","en":"how many","zh":"多少","grade":"common","theme":"短语","syn":null},
-  {"id":"good_morning","en":"good morning","zh":"早上好","grade":"common","theme":"短语","syn":null},
-  {"id":"good_afternoon","en":"good afternoon","zh":"下午好","grade":"common","theme":"短语","syn":null},
-  {"id":"good_evening","en":"good evening","zh":"晚上好","grade":"common","theme":"短语","syn":null},
-
-  {"id":"he","en":"he","zh":"他","grade":"common","theme":"代词冠词","syn":null},
-  {"id":"she","en":"she","zh":"她","grade":"common","theme":"代词冠词","syn":null},
-  {"id":"it","en":"it","zh":"它","grade":"common","theme":"代词冠词","syn":null},
-  {"id":"the","en":"the","zh":"这","grade":"common","theme":"代词冠词","syn":null},
-  {"id":"a","en":"a","zh":"一个","grade":"common","theme":"代词冠词","syn":"article"},
-  {"id":"an","en":"an","zh":"一个","grade":"common","theme":"代词冠词","syn":"article"}
+  {
+    "id": "book",
+    "en": "book",
+    "zh": "书",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "pen",
+    "en": "pen",
+    "zh": "钢笔",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "pencil",
+    "en": "pencil",
+    "zh": "铅笔",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "ruler",
+    "en": "ruler",
+    "zh": "尺子",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "rubber",
+    "en": "rubber",
+    "zh": "橡皮",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "bag",
+    "en": "bag",
+    "zh": "书包",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "pencil_case",
+    "en": "pencil case",
+    "zh": "文具盒",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "desk",
+    "en": "desk",
+    "zh": "书桌",
+    "grade": "1A",
+    "theme": "文具",
+    "syn": null
+  },
+  {
+    "id": "one",
+    "en": "one",
+    "zh": "一",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "two",
+    "en": "two",
+    "zh": "二",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "three",
+    "en": "three",
+    "zh": "三",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "four",
+    "en": "four",
+    "zh": "四",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "five",
+    "en": "five",
+    "zh": "五",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "six",
+    "en": "six",
+    "zh": "六",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "seven",
+    "en": "seven",
+    "zh": "七",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "eight",
+    "en": "eight",
+    "zh": "八",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "nine",
+    "en": "nine",
+    "zh": "九",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "ten",
+    "en": "ten",
+    "zh": "十",
+    "grade": "1A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "read",
+    "en": "read",
+    "zh": "读",
+    "grade": "1A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "write",
+    "en": "write",
+    "zh": "写",
+    "grade": "1A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "draw",
+    "en": "draw",
+    "zh": "画",
+    "grade": "1A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "sing",
+    "en": "sing",
+    "zh": "唱",
+    "grade": "1A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "dance",
+    "en": "dance",
+    "zh": "跳舞",
+    "grade": "1A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "jump",
+    "en": "jump",
+    "zh": "跳",
+    "grade": "1A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "clean",
+    "en": "clean",
+    "zh": "打扫",
+    "grade": "1A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "face",
+    "en": "face",
+    "zh": "脸",
+    "grade": "1A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "eye",
+    "en": "eye",
+    "zh": "眼睛",
+    "grade": "1A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "ear",
+    "en": "ear",
+    "zh": "耳朵",
+    "grade": "1A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "nose",
+    "en": "nose",
+    "zh": "鼻子",
+    "grade": "1A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "mouth",
+    "en": "mouth",
+    "zh": "嘴",
+    "grade": "1A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "hair",
+    "en": "hair",
+    "zh": "头发",
+    "grade": "1A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "i",
+    "en": "I",
+    "zh": "我",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "my",
+    "en": "my",
+    "zh": "我的",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "you",
+    "en": "you",
+    "zh": "你",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "mum",
+    "en": "mum",
+    "zh": "妈妈",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "dad",
+    "en": "dad",
+    "zh": "爸爸",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "family",
+    "en": "family",
+    "zh": "家庭",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "grandma",
+    "en": "grandma",
+    "zh": "奶奶",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "grandpa",
+    "en": "grandpa",
+    "zh": "爷爷",
+    "grade": "1A",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "red",
+    "en": "red",
+    "zh": "红色",
+    "grade": "1A",
+    "theme": "颜色",
+    "syn": null
+  },
+  {
+    "id": "yellow",
+    "en": "yellow",
+    "zh": "黄色",
+    "grade": "1A",
+    "theme": "颜色",
+    "syn": null
+  },
+  {
+    "id": "blue",
+    "en": "blue",
+    "zh": "蓝色",
+    "grade": "1A",
+    "theme": "颜色",
+    "syn": null
+  },
+  {
+    "id": "green",
+    "en": "green",
+    "zh": "绿色",
+    "grade": "1A",
+    "theme": "颜色",
+    "syn": null
+  },
+  {
+    "id": "hello",
+    "en": "hello",
+    "zh": "你好",
+    "grade": "1A",
+    "theme": "问候",
+    "syn": null
+  },
+  {
+    "id": "hi",
+    "en": "hi",
+    "zh": "嗨",
+    "grade": "1A",
+    "theme": "问候",
+    "syn": null
+  },
+  {
+    "id": "goodbye",
+    "en": "goodbye",
+    "zh": "再见",
+    "grade": "1A",
+    "theme": "问候",
+    "syn": null
+  },
+  {
+    "id": "thank_you",
+    "en": "thank you",
+    "zh": "谢谢",
+    "grade": "1A",
+    "theme": "问候",
+    "syn": null
+  },
+  {
+    "id": "please",
+    "en": "please",
+    "zh": "请",
+    "grade": "1A",
+    "theme": "问候",
+    "syn": null
+  },
+  {
+    "id": "apple",
+    "en": "apple",
+    "zh": "苹果",
+    "grade": "1B",
+    "theme": "水果",
+    "syn": null
+  },
+  {
+    "id": "orange",
+    "en": "orange",
+    "zh": "橙子",
+    "grade": "1B",
+    "theme": "水果",
+    "syn": null
+  },
+  {
+    "id": "peach",
+    "en": "peach",
+    "zh": "桃子",
+    "grade": "1B",
+    "theme": "水果",
+    "syn": null
+  },
+  {
+    "id": "pear",
+    "en": "pear",
+    "zh": "梨",
+    "grade": "1B",
+    "theme": "水果",
+    "syn": null
+  },
+  {
+    "id": "lemon",
+    "en": "lemon",
+    "zh": "柠檬",
+    "grade": "1B",
+    "theme": "水果",
+    "syn": null
+  },
+  {
+    "id": "rice",
+    "en": "rice",
+    "zh": "米饭",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "egg",
+    "en": "egg",
+    "zh": "鸡蛋",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "noodles",
+    "en": "noodles",
+    "zh": "面条",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "soup",
+    "en": "soup",
+    "zh": "汤",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "milk",
+    "en": "milk",
+    "zh": "牛奶",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "water",
+    "en": "water",
+    "zh": "水",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "juice",
+    "en": "juice",
+    "zh": "果汁",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "cola",
+    "en": "cola",
+    "zh": "可乐",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "biscuit",
+    "en": "biscuit",
+    "zh": "饼干",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "jelly",
+    "en": "jelly",
+    "zh": "果冻",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "sweet",
+    "en": "sweet",
+    "zh": "糖果",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "ice_cream",
+    "en": "ice cream",
+    "zh": "冰淇淋",
+    "grade": "1B",
+    "theme": "食物饮料",
+    "syn": null
+  },
+  {
+    "id": "cat",
+    "en": "cat",
+    "zh": "猫",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "dog",
+    "en": "dog",
+    "zh": "狗",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "chick",
+    "en": "chick",
+    "zh": "小鸡",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "duck",
+    "en": "duck",
+    "zh": "鸭子",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "pig",
+    "en": "pig",
+    "zh": "猪",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "sheep",
+    "en": "sheep",
+    "zh": "羊",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "rabbit",
+    "en": "rabbit",
+    "zh": "兔子",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "frog",
+    "en": "frog",
+    "zh": "青蛙",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "bird",
+    "en": "bird",
+    "zh": "鸟",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "bee",
+    "en": "bee",
+    "zh": "蜜蜂",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "butterfly",
+    "en": "butterfly",
+    "zh": "蝴蝶",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "panda",
+    "en": "panda",
+    "zh": "熊猫",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "monkey",
+    "en": "monkey",
+    "zh": "猴子",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "tiger",
+    "en": "tiger",
+    "zh": "老虎",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "bear",
+    "en": "bear",
+    "zh": "熊",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "lion",
+    "en": "lion",
+    "zh": "狮子",
+    "grade": "1B",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "weather",
+    "en": "weather",
+    "zh": "天气",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "sunny",
+    "en": "sunny",
+    "zh": "晴朗的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "rainy",
+    "en": "rainy",
+    "zh": "下雨的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "windy",
+    "en": "windy",
+    "zh": "刮风的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "cloudy",
+    "en": "cloudy",
+    "zh": "多云的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "spring",
+    "en": "spring",
+    "zh": "春天",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "summer",
+    "en": "summer",
+    "zh": "夏天",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "autumn",
+    "en": "autumn",
+    "zh": "秋天",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "winter",
+    "en": "winter",
+    "zh": "冬天",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "hot",
+    "en": "hot",
+    "zh": "热的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "warm",
+    "en": "warm",
+    "zh": "温暖的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "cool",
+    "en": "cool",
+    "zh": "凉爽的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "cold",
+    "en": "cold",
+    "zh": "冷的",
+    "grade": "1B",
+    "theme": "天气季节",
+    "syn": null
+  },
+  {
+    "id": "clothes",
+    "en": "clothes",
+    "zh": "衣服",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "tshirt",
+    "en": "T-shirt",
+    "zh": "T恤",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "dress",
+    "en": "dress",
+    "zh": "连衣裙",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "blouse",
+    "en": "blouse",
+    "zh": "女衬衫",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "shorts",
+    "en": "shorts",
+    "zh": "短裤",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "trousers",
+    "en": "trousers",
+    "zh": "长裤",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "hat",
+    "en": "hat",
+    "zh": "帽子",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "shoes",
+    "en": "shoes",
+    "zh": "鞋子",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "socks",
+    "en": "socks",
+    "zh": "袜子",
+    "grade": "1B",
+    "theme": "服装",
+    "syn": null
+  },
+  {
+    "id": "ball",
+    "en": "ball",
+    "zh": "球",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "kite",
+    "en": "kite",
+    "zh": "风筝",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "doll",
+    "en": "doll",
+    "zh": "娃娃",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "bicycle",
+    "en": "bicycle",
+    "zh": "自行车",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "toy_car",
+    "en": "toy car",
+    "zh": "玩具车",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "toy_boat",
+    "en": "toy boat",
+    "zh": "玩具船",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "toy_train",
+    "en": "toy train",
+    "zh": "玩具火车",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "gift",
+    "en": "gift",
+    "zh": "礼物",
+    "grade": "1B",
+    "theme": "玩具",
+    "syn": null
+  },
+  {
+    "id": "swing",
+    "en": "swing",
+    "zh": "秋千",
+    "grade": "1B",
+    "theme": "游乐场",
+    "syn": null
+  },
+  {
+    "id": "slide",
+    "en": "slide",
+    "zh": "滑梯",
+    "grade": "1B",
+    "theme": "游乐场",
+    "syn": null
+  },
+  {
+    "id": "seesaw",
+    "en": "seesaw",
+    "zh": "跷跷板",
+    "grade": "1B",
+    "theme": "游乐场",
+    "syn": null
+  },
+  {
+    "id": "park",
+    "en": "park",
+    "zh": "公园",
+    "grade": "2A",
+    "theme": "场所",
+    "syn": null
+  },
+  {
+    "id": "road",
+    "en": "road",
+    "zh": "马路",
+    "grade": "2A",
+    "theme": "场所",
+    "syn": null
+  },
+  {
+    "id": "building",
+    "en": "building",
+    "zh": "楼房",
+    "grade": "2A",
+    "theme": "场所",
+    "syn": null
+  },
+  {
+    "id": "bin",
+    "en": "bin",
+    "zh": "垃圾桶",
+    "grade": "2A",
+    "theme": "场所",
+    "syn": null
+  },
+  {
+    "id": "school",
+    "en": "school",
+    "zh": "学校",
+    "grade": "2A",
+    "theme": "场所",
+    "syn": null
+  },
+  {
+    "id": "bus",
+    "en": "bus",
+    "zh": "公交车",
+    "grade": "2A",
+    "theme": "交通",
+    "syn": null
+  },
+  {
+    "id": "car",
+    "en": "car",
+    "zh": "小汽车",
+    "grade": "2A",
+    "theme": "交通",
+    "syn": null
+  },
+  {
+    "id": "taxi",
+    "en": "taxi",
+    "zh": "出租车",
+    "grade": "2A",
+    "theme": "交通",
+    "syn": null
+  },
+  {
+    "id": "train",
+    "en": "train",
+    "zh": "火车",
+    "grade": "2A",
+    "theme": "交通",
+    "syn": null
+  },
+  {
+    "id": "plane",
+    "en": "plane",
+    "zh": "飞机",
+    "grade": "2A",
+    "theme": "交通",
+    "syn": "aircraft"
+  },
+  {
+    "id": "ferry",
+    "en": "ferry",
+    "zh": "渡轮",
+    "grade": "2A",
+    "theme": "交通",
+    "syn": null
+  },
+  {
+    "id": "hot_dog",
+    "en": "hot dog",
+    "zh": "热狗",
+    "grade": "2A",
+    "theme": "食物",
+    "syn": null
+  },
+  {
+    "id": "pizza",
+    "en": "pizza",
+    "zh": "披萨",
+    "grade": "2A",
+    "theme": "食物",
+    "syn": null
+  },
+  {
+    "id": "hamburger",
+    "en": "hamburger",
+    "zh": "汉堡包",
+    "grade": "2A",
+    "theme": "食物",
+    "syn": null
+  },
+  {
+    "id": "pie",
+    "en": "pie",
+    "zh": "派",
+    "grade": "2A",
+    "theme": "食物",
+    "syn": null
+  },
+  {
+    "id": "run",
+    "en": "run",
+    "zh": "跑",
+    "grade": "2A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "swim",
+    "en": "swim",
+    "zh": "游泳",
+    "grade": "2A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "sleep",
+    "en": "sleep",
+    "zh": "睡觉",
+    "grade": "2A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "play",
+    "en": "play",
+    "zh": "玩",
+    "grade": "2A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "skip",
+    "en": "skip",
+    "zh": "跳绳",
+    "grade": "2A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "ride",
+    "en": "ride",
+    "zh": "骑",
+    "grade": "2A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "fly",
+    "en": "fly",
+    "zh": "飞",
+    "grade": "2A",
+    "theme": "动作",
+    "syn": null
+  },
+  {
+    "id": "teacher",
+    "en": "teacher",
+    "zh": "老师",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "doctor",
+    "en": "doctor",
+    "zh": "医生",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "nurse",
+    "en": "nurse",
+    "zh": "护士",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "cook",
+    "en": "cook",
+    "zh": "厨师",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "driver",
+    "en": "driver",
+    "zh": "司机",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "fireman",
+    "en": "fireman",
+    "zh": "消防员",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "farmer",
+    "en": "farmer",
+    "zh": "农民",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "fisherman",
+    "en": "fisherman",
+    "zh": "渔夫",
+    "grade": "2B",
+    "theme": "职业",
+    "syn": null
+  },
+  {
+    "id": "uncle",
+    "en": "uncle",
+    "zh": "叔叔",
+    "grade": "2B",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "aunt",
+    "en": "aunt",
+    "zh": "阿姨",
+    "grade": "2B",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "cousin",
+    "en": "cousin",
+    "zh": "表亲",
+    "grade": "2B",
+    "theme": "家庭",
+    "syn": null
+  },
+  {
+    "id": "friend",
+    "en": "friend",
+    "zh": "朋友",
+    "grade": "2B",
+    "theme": "称呼",
+    "syn": null
+  },
+  {
+    "id": "classmate",
+    "en": "classmate",
+    "zh": "同学",
+    "grade": "2B",
+    "theme": "称呼",
+    "syn": null
+  },
+  {
+    "id": "miss",
+    "en": "Miss",
+    "zh": "小姐",
+    "grade": "2B",
+    "theme": "称呼",
+    "syn": null
+  },
+  {
+    "id": "mr",
+    "en": "Mr",
+    "zh": "先生",
+    "grade": "2B",
+    "theme": "称呼",
+    "syn": null
+  },
+  {
+    "id": "mrs",
+    "en": "Mrs",
+    "zh": "夫人",
+    "grade": "2B",
+    "theme": "称呼",
+    "syn": null
+  },
+  {
+    "id": "card",
+    "en": "card",
+    "zh": "卡片",
+    "grade": "2B",
+    "theme": "节日",
+    "syn": null
+  },
+  {
+    "id": "firework",
+    "en": "firework",
+    "zh": "烟花",
+    "grade": "2B",
+    "theme": "节日",
+    "syn": null
+  },
+  {
+    "id": "firecracker",
+    "en": "firecracker",
+    "zh": "鞭炮",
+    "grade": "2B",
+    "theme": "节日",
+    "syn": null
+  },
+  {
+    "id": "new_year",
+    "en": "New Year",
+    "zh": "新年",
+    "grade": "2B",
+    "theme": "节日",
+    "syn": null
+  },
+  {
+    "id": "party",
+    "en": "party",
+    "zh": "聚会",
+    "grade": "2B",
+    "theme": "节日",
+    "syn": null
+  },
+  {
+    "id": "classroom",
+    "en": "classroom",
+    "zh": "教室",
+    "grade": "3A",
+    "theme": "学校",
+    "syn": null
+  },
+  {
+    "id": "library",
+    "en": "library",
+    "zh": "图书馆",
+    "grade": "3A",
+    "theme": "学校",
+    "syn": null
+  },
+  {
+    "id": "hall",
+    "en": "hall",
+    "zh": "大厅",
+    "grade": "3A",
+    "theme": "学校",
+    "syn": null
+  },
+  {
+    "id": "playground",
+    "en": "playground",
+    "zh": "操场",
+    "grade": "3A",
+    "theme": "学校",
+    "syn": null
+  },
+  {
+    "id": "toilet",
+    "en": "toilet",
+    "zh": "厕所",
+    "grade": "3A",
+    "theme": "学校",
+    "syn": null
+  },
+  {
+    "id": "fat",
+    "en": "fat",
+    "zh": "胖的",
+    "grade": "3A",
+    "theme": "形容词",
+    "syn": null
+  },
+  {
+    "id": "thin",
+    "en": "thin",
+    "zh": "瘦的",
+    "grade": "3A",
+    "theme": "形容词",
+    "syn": null
+  },
+  {
+    "id": "tall",
+    "en": "tall",
+    "zh": "高的",
+    "grade": "3A",
+    "theme": "形容词",
+    "syn": null
+  },
+  {
+    "id": "short",
+    "en": "short",
+    "zh": "矮的",
+    "grade": "3A",
+    "theme": "形容词",
+    "syn": null
+  },
+  {
+    "id": "big",
+    "en": "big",
+    "zh": "大的",
+    "grade": "3A",
+    "theme": "形容词",
+    "syn": null
+  },
+  {
+    "id": "small",
+    "en": "small",
+    "zh": "小的",
+    "grade": "3A",
+    "theme": "形容词",
+    "syn": null
+  },
+  {
+    "id": "beautiful",
+    "en": "beautiful",
+    "zh": "美丽的",
+    "grade": "3A",
+    "theme": "形容词",
+    "syn": null
+  },
+  {
+    "id": "head",
+    "en": "head",
+    "zh": "头",
+    "grade": "3A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "shoulder",
+    "en": "shoulder",
+    "zh": "肩膀",
+    "grade": "3A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "knee",
+    "en": "knee",
+    "zh": "膝盖",
+    "grade": "3A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "body",
+    "en": "body",
+    "zh": "身体",
+    "grade": "3A",
+    "theme": "身体",
+    "syn": null
+  },
+  {
+    "id": "flower",
+    "en": "flower",
+    "zh": "花",
+    "grade": "3A",
+    "theme": "植物",
+    "syn": null
+  },
+  {
+    "id": "leaf",
+    "en": "leaf",
+    "zh": "叶子",
+    "grade": "3A",
+    "theme": "植物",
+    "syn": "leaf"
+  },
+  {
+    "id": "leaves",
+    "en": "leaves",
+    "zh": "树叶",
+    "grade": "3A",
+    "theme": "植物",
+    "syn": "leaf"
+  },
+  {
+    "id": "branch",
+    "en": "branch",
+    "zh": "树枝",
+    "grade": "3A",
+    "theme": "植物",
+    "syn": null
+  },
+  {
+    "id": "root",
+    "en": "root",
+    "zh": "根",
+    "grade": "3A",
+    "theme": "植物",
+    "syn": null
+  },
+  {
+    "id": "eleven",
+    "en": "eleven",
+    "zh": "十一",
+    "grade": "3A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "twelve",
+    "en": "twelve",
+    "zh": "十二",
+    "grade": "3A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "thirteen",
+    "en": "thirteen",
+    "zh": "十三",
+    "grade": "3A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "fourteen",
+    "en": "fourteen",
+    "zh": "十四",
+    "grade": "3A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "fifteen",
+    "en": "fifteen",
+    "zh": "十五",
+    "grade": "3A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "aeroplane",
+    "en": "aeroplane",
+    "zh": "飞机",
+    "grade": "3B",
+    "theme": "交通",
+    "syn": "aircraft"
+  },
+  {
+    "id": "skateboard",
+    "en": "skateboard",
+    "zh": "滑板",
+    "grade": "3B",
+    "theme": "交通",
+    "syn": null
+  },
+  {
+    "id": "ship",
+    "en": "ship",
+    "zh": "轮船",
+    "grade": "3B",
+    "theme": "交通",
+    "syn": null
+  },
+  {
+    "id": "circle",
+    "en": "circle",
+    "zh": "圆形",
+    "grade": "3B",
+    "theme": "形状",
+    "syn": null
+  },
+  {
+    "id": "triangle",
+    "en": "triangle",
+    "zh": "三角形",
+    "grade": "3B",
+    "theme": "形状",
+    "syn": null
+  },
+  {
+    "id": "rectangle",
+    "en": "rectangle",
+    "zh": "长方形",
+    "grade": "3B",
+    "theme": "形状",
+    "syn": null
+  },
+  {
+    "id": "hear",
+    "en": "hear",
+    "zh": "听见",
+    "grade": "3B",
+    "theme": "感官",
+    "syn": null
+  },
+  {
+    "id": "listen",
+    "en": "listen",
+    "zh": "听",
+    "grade": "3B",
+    "theme": "感官",
+    "syn": null
+  },
+  {
+    "id": "see",
+    "en": "see",
+    "zh": "看见",
+    "grade": "3B",
+    "theme": "感官",
+    "syn": null
+  },
+  {
+    "id": "touch",
+    "en": "touch",
+    "zh": "摸",
+    "grade": "3B",
+    "theme": "感官",
+    "syn": null
+  },
+  {
+    "id": "taste",
+    "en": "taste",
+    "zh": "尝",
+    "grade": "3B",
+    "theme": "感官",
+    "syn": null
+  },
+  {
+    "id": "smell",
+    "en": "smell",
+    "zh": "闻",
+    "grade": "3B",
+    "theme": "感官",
+    "syn": null
+  },
+  {
+    "id": "can",
+    "en": "can",
+    "zh": "能",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": null
+  },
+  {
+    "id": "cannot",
+    "en": "cannot",
+    "zh": "不能",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": "cannot"
+  },
+  {
+    "id": "cant",
+    "en": "can't",
+    "zh": "不能",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": "cannot"
+  },
+  {
+    "id": "do_not",
+    "en": "do not",
+    "zh": "不",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": "donot"
+  },
+  {
+    "id": "dont",
+    "en": "don't",
+    "zh": "不要",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": "donot"
+  },
+  {
+    "id": "let_us",
+    "en": "let us",
+    "zh": "让我们",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": "letus"
+  },
+  {
+    "id": "lets",
+    "en": "let's",
+    "zh": "让我们",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": "letus"
+  },
+  {
+    "id": "some",
+    "en": "some",
+    "zh": "一些",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": null
+  },
+  {
+    "id": "sure",
+    "en": "sure",
+    "zh": "当然",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": null
+  },
+  {
+    "id": "together",
+    "en": "together",
+    "zh": "一起",
+    "grade": "3B",
+    "theme": "常用表达",
+    "syn": null
+  },
+  {
+    "id": "river",
+    "en": "river",
+    "zh": "河",
+    "grade": "3B",
+    "theme": "自然",
+    "syn": null
+  },
+  {
+    "id": "beach",
+    "en": "beach",
+    "zh": "海滩",
+    "grade": "3B",
+    "theme": "自然",
+    "syn": null
+  },
+  {
+    "id": "picnic",
+    "en": "picnic",
+    "zh": "野餐",
+    "grade": "3B",
+    "theme": "自然",
+    "syn": null
+  },
+  {
+    "id": "stand_up",
+    "en": "stand up",
+    "zh": "起立",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "sit_down",
+    "en": "sit down",
+    "zh": "坐下",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "come_here",
+    "en": "come here",
+    "zh": "过来",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "go_away",
+    "en": "go away",
+    "zh": "走开",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "look_at",
+    "en": "look at",
+    "zh": "看",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "listen_to",
+    "en": "listen to",
+    "zh": "听",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "would_like",
+    "en": "would like",
+    "zh": "想要",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "how_many",
+    "en": "how many",
+    "zh": "多少",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "good_morning",
+    "en": "good morning",
+    "zh": "早上好",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "good_afternoon",
+    "en": "good afternoon",
+    "zh": "下午好",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "good_evening",
+    "en": "good evening",
+    "zh": "晚上好",
+    "grade": "common",
+    "theme": "短语",
+    "syn": null
+  },
+  {
+    "id": "he",
+    "en": "he",
+    "zh": "他",
+    "grade": "common",
+    "theme": "代词冠词",
+    "syn": null
+  },
+  {
+    "id": "she",
+    "en": "she",
+    "zh": "她",
+    "grade": "common",
+    "theme": "代词冠词",
+    "syn": null
+  },
+  {
+    "id": "it",
+    "en": "it",
+    "zh": "它",
+    "grade": "common",
+    "theme": "代词冠词",
+    "syn": null
+  },
+  {
+    "id": "the",
+    "en": "the",
+    "zh": "这",
+    "grade": "common",
+    "theme": "代词冠词",
+    "syn": null
+  },
+  {
+    "id": "a",
+    "en": "a",
+    "zh": "一个",
+    "grade": "common",
+    "theme": "代词冠词",
+    "syn": "article"
+  },
+  {
+    "id": "an",
+    "en": "an",
+    "zh": "一个",
+    "grade": "common",
+    "theme": "代词冠词",
+    "syn": "article"
+  },
+  {
+    "id": "day",
+    "en": "day",
+    "zh": "天",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "week",
+    "en": "week",
+    "zh": "周",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "weekend",
+    "en": "weekend",
+    "zh": "周末",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "today",
+    "en": "today",
+    "zh": "今天",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "soon",
+    "en": "soon",
+    "zh": "很快",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "first",
+    "en": "first",
+    "zh": "第一",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "second",
+    "en": "second",
+    "zh": "第二",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "third",
+    "en": "third",
+    "zh": "第三",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "begin",
+    "en": "begin",
+    "zh": "开始",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "end",
+    "en": "end",
+    "zh": "结束",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "partner",
+    "en": "partner",
+    "zh": "搭档",
+    "grade": "4A",
+    "theme": "人物",
+    "syn": null
+  },
+  {
+    "id": "student",
+    "en": "student",
+    "zh": "学生",
+    "grade": "4A",
+    "theme": "人物",
+    "syn": null
+  },
+  {
+    "id": "study",
+    "en": "study",
+    "zh": "学习",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": "study_learn"
+  },
+  {
+    "id": "learn",
+    "en": "learn",
+    "zh": "学会",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": "study_learn"
+  },
+  {
+    "id": "computer",
+    "en": "computer",
+    "zh": "电脑",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": null
+  },
+  {
+    "id": "project",
+    "en": "project",
+    "zh": "项目",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": null
+  },
+  {
+    "id": "music",
+    "en": "music",
+    "zh": "音乐",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": null
+  },
+  {
+    "id": "art",
+    "en": "art",
+    "zh": "美术",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": null
+  },
+  {
+    "id": "story",
+    "en": "story",
+    "zh": "故事",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": null
+  },
+  {
+    "id": "room",
+    "en": "room",
+    "zh": "房间",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "wall",
+    "en": "wall",
+    "zh": "墙",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "floor",
+    "en": "floor",
+    "zh": "地板",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": "floor_ground"
+  },
+  {
+    "id": "ground",
+    "en": "ground",
+    "zh": "地面",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": "floor_ground"
+  },
+  {
+    "id": "field",
+    "en": "field",
+    "zh": "场地",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "place",
+    "en": "place",
+    "zh": "地方",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "umbrella",
+    "en": "umbrella",
+    "zh": "伞",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "win",
+    "en": "win",
+    "zh": "赢",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "spell",
+    "en": "spell",
+    "zh": "拼写",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "plan",
+    "en": "plan",
+    "zh": "计划",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "talk",
+    "en": "talk",
+    "zh": "谈话",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "tell",
+    "en": "tell",
+    "zh": "告诉",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "guess",
+    "en": "guess",
+    "zh": "猜",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "try",
+    "en": "try",
+    "zh": "尝试",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "know",
+    "en": "know",
+    "zh": "知道",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "meet",
+    "en": "meet",
+    "zh": "遇见",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "want",
+    "en": "want",
+    "zh": "想要",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "made",
+    "en": "made",
+    "zh": "制作",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "shall",
+    "en": "shall",
+    "zh": "好吗",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "about",
+    "en": "about",
+    "zh": "关于",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "sport",
+    "en": "sport",
+    "zh": "运动",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "great",
+    "en": "great",
+    "zh": "极好的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "quiet",
+    "en": "quiet",
+    "zh": "安静的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "lovely",
+    "en": "lovely",
+    "zh": "可爱的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "afraid",
+    "en": "afraid",
+    "zh": "害怕的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "interesting",
+    "en": "interesting",
+    "zh": "有趣的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "favourite",
+    "en": "favourite",
+    "zh": "最喜欢的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "special",
+    "en": "special",
+    "zh": "特别的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "best",
+    "en": "best",
+    "zh": "最好的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "right",
+    "en": "right",
+    "zh": "对的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "different",
+    "en": "different",
+    "zh": "不同的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "other",
+    "en": "other",
+    "zh": "其他的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "always",
+    "en": "always",
+    "zh": "总是",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "every",
+    "en": "every",
+    "zh": "每个",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": "every_each"
+  },
+  {
+    "id": "each",
+    "en": "each",
+    "zh": "每个",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": "every_each"
+  },
+  {
+    "id": "all",
+    "en": "all",
+    "zh": "全部",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "often",
+    "en": "often",
+    "zh": "经常",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "4a_building",
+    "en": "building",
+    "zh": "楼房",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "4a_hall",
+    "en": "hall",
+    "zh": "大厅",
+    "grade": "4A",
+    "theme": "学校学习",
+    "syn": null
+  },
+  {
+    "id": "4a_sure",
+    "en": "sure",
+    "zh": "当然",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "monday",
+    "en": "Monday",
+    "zh": "星期一",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "tuesday",
+    "en": "Tuesday",
+    "zh": "星期二",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "wednesday",
+    "en": "Wednesday",
+    "zh": "星期三",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "thursday",
+    "en": "Thursday",
+    "zh": "星期四",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "friday",
+    "en": "Friday",
+    "zh": "星期五",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "saturday",
+    "en": "Saturday",
+    "zh": "星期六",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "sunday",
+    "en": "Sunday",
+    "zh": "星期日",
+    "grade": "4A",
+    "theme": "时间",
+    "syn": null
+  },
+  {
+    "id": "4a_three",
+    "en": "three",
+    "zh": "三",
+    "grade": "4A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "4a_four",
+    "en": "four",
+    "zh": "四",
+    "grade": "4A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "4a_five",
+    "en": "five",
+    "zh": "五",
+    "grade": "4A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "4a_six",
+    "en": "six",
+    "zh": "六",
+    "grade": "4A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "4a_seven",
+    "en": "seven",
+    "zh": "七",
+    "grade": "4A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "4a_eight",
+    "en": "eight",
+    "zh": "八",
+    "grade": "4A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "4a_nine",
+    "en": "nine",
+    "zh": "九",
+    "grade": "4A",
+    "theme": "数字",
+    "syn": null
+  },
+  {
+    "id": "writer",
+    "en": "writer",
+    "zh": "作家",
+    "grade": "4A",
+    "theme": "人物",
+    "syn": null
+  },
+  {
+    "id": "painter",
+    "en": "painter",
+    "zh": "画家",
+    "grade": "4A",
+    "theme": "人物",
+    "syn": null
+  },
+  {
+    "id": "rope",
+    "en": "rope",
+    "zh": "绳子",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "trunk",
+    "en": "trunk",
+    "zh": "树干/大象鼻子",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "picture",
+    "en": "picture",
+    "zh": "图画",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "shower",
+    "en": "shower",
+    "zh": "淋浴",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "hometown",
+    "en": "hometown",
+    "zh": "家乡",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "share",
+    "en": "share",
+    "zh": "分享",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "cheer",
+    "en": "cheer",
+    "zh": "欢呼",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "show",
+    "en": "show",
+    "zh": "展示",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "turn",
+    "en": "turn",
+    "zh": "转动",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "did",
+    "en": "did",
+    "zh": "做",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "excite",
+    "en": "excite",
+    "zh": "使兴奋",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "say",
+    "en": "say",
+    "zh": "说",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "give",
+    "en": "give",
+    "zh": "给",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "pull",
+    "en": "pull",
+    "zh": "拉",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "catch",
+    "en": "catch",
+    "zh": "抓住",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "come_on",
+    "en": "come on",
+    "zh": "加油",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "each_other",
+    "en": "each other",
+    "zh": "互相",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "live",
+    "en": "live",
+    "zh": "居住",
+    "grade": "4A",
+    "theme": "动作表达",
+    "syn": null
+  },
+  {
+    "id": "little",
+    "en": "little",
+    "zh": "小的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "hard",
+    "en": "hard",
+    "zh": "难的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "over",
+    "en": "over",
+    "zh": "结束",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "warmer",
+    "en": "warmer",
+    "zh": "更暖的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "colder",
+    "en": "colder",
+    "zh": "更冷的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "difficult",
+    "en": "difficult",
+    "zh": "困难的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "grey",
+    "en": "grey",
+    "zh": "灰色的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "light",
+    "en": "light",
+    "zh": "灯",
+    "grade": "4A",
+    "theme": "物品场所",
+    "syn": null
+  },
+  {
+    "id": "thick",
+    "en": "thick",
+    "zh": "厚的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "kind",
+    "en": "kind",
+    "zh": "善良的",
+    "grade": "4A",
+    "theme": "形容情感",
+    "syn": null
+  },
+  {
+    "id": "where",
+    "en": "where",
+    "zh": "哪里",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "how",
+    "en": "how",
+    "zh": "怎么",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "from",
+    "en": "from",
+    "zh": "从",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "near",
+    "en": "near",
+    "zh": "附近",
+    "grade": "4A",
+    "theme": "常用副词",
+    "syn": null
+  },
+  {
+    "id": "seal",
+    "en": "seal",
+    "zh": "海豹",
+    "grade": "4A",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "tail",
+    "en": "tail",
+    "zh": "尾巴",
+    "grade": "4A",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "fur",
+    "en": "fur",
+    "zh": "毛",
+    "grade": "4A",
+    "theme": "动物",
+    "syn": null
+  },
+  {
+    "id": "date",
+    "en": "date",
+    "zh": "日期",
+    "grade": "4B",
+    "theme": "时间生活",
+    "syn": null
+  },
+  {
+    "id": "time",
+    "en": "time",
+    "zh": "时间",
+    "grade": "4B",
+    "theme": "时间生活",
+    "syn": null
+  },
+  {
+    "id": "4b_live",
+    "en": "live",
+    "zh": "居住",
+    "grade": "4B",
+    "theme": "时间生活",
+    "syn": null
+  },
+  {
+    "id": "life",
+    "en": "life",
+    "zh": "生活",
+    "grade": "4B",
+    "theme": "时间生活",
+    "syn": null
+  },
+  {
+    "id": "activities",
+    "en": "activities",
+    "zh": "活动",
+    "grade": "4B",
+    "theme": "活动事件",
+    "syn": null
+  },
+  {
+    "id": "climb",
+    "en": "climb",
+    "zh": "爬",
+    "grade": "4B",
+    "theme": "活动事件",
+    "syn": null
+  },
+  {
+    "id": "invitation",
+    "en": "invitation",
+    "zh": "邀请",
+    "grade": "4B",
+    "theme": "活动事件",
+    "syn": null
+  },
+  {
+    "id": "4b_party",
+    "en": "party",
+    "zh": "聚会",
+    "grade": "4B",
+    "theme": "活动事件",
+    "syn": null
+  },
+  {
+    "id": "tradition",
+    "en": "tradition",
+    "zh": "传统",
+    "grade": "4B",
+    "theme": "活动事件",
+    "syn": null
+  },
+  {
+    "id": "surprise",
+    "en": "surprise",
+    "zh": "惊喜",
+    "grade": "4B",
+    "theme": "活动事件",
+    "syn": null
+  },
+  {
+    "id": "tomato",
+    "en": "tomato",
+    "zh": "西红柿",
+    "grade": "4B",
+    "theme": "食物",
+    "syn": null
+  },
+  {
+    "id": "vegetable",
+    "en": "vegetable",
+    "zh": "蔬菜",
+    "grade": "4B",
+    "theme": "食物",
+    "syn": null
+  },
+  {
+    "id": "thing",
+    "en": "thing",
+    "zh": "东西",
+    "grade": "4B",
+    "theme": "物品",
+    "syn": null
+  },
+  {
+    "id": "letter",
+    "en": "letter",
+    "zh": "信",
+    "grade": "4B",
+    "theme": "物品",
+    "syn": null
+  },
+  {
+    "id": "word",
+    "en": "word",
+    "zh": "单词",
+    "grade": "4B",
+    "theme": "物品",
+    "syn": null
+  },
+  {
+    "id": "lots_of",
+    "en": "lots of",
+    "zh": "许多",
+    "grade": "4B",
+    "theme": "常用词",
+    "syn": null
+  },
+  {
+    "id": "welcome",
+    "en": "welcome",
+    "zh": "欢迎",
+    "grade": "4B",
+    "theme": "常用词",
+    "syn": null
+  },
+  {
+    "id": "dear",
+    "en": "dear",
+    "zh": "亲爱的",
+    "grade": "4B",
+    "theme": "常用词",
+    "syn": null
+  },
+  {
+    "id": "why",
+    "en": "why",
+    "zh": "为什么",
+    "grade": "4B",
+    "theme": "常用词",
+    "syn": null
+  },
+  {
+    "id": "4b_from",
+    "en": "from",
+    "zh": "从",
+    "grade": "4B",
+    "theme": "常用词",
+    "syn": null
+  },
+  {
+    "id": "polar",
+    "en": "polar",
+    "zh": "极地的",
+    "grade": "4B",
+    "theme": "地理",
+    "syn": null
+  },
+  {
+    "id": "pole",
+    "en": "pole",
+    "zh": "极点",
+    "grade": "4B",
+    "theme": "地理",
+    "syn": null
+  }
 ]

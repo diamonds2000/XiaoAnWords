@@ -37,9 +37,13 @@ struct HomeView: View {
         }
         .preferredColorScheme(.light)
         .task {
-            // 调试/演示：带 --demo-quiz 启动时直接进入一轮答题，便于截图与自测
-            if phase == .home,
-               ProcessInfo.processInfo.arguments.contains("--demo-quiz") {
+            // 调试/演示：--demo-grade <1-4> 选年级；--demo-quiz 直接进入一轮答题
+            let args = ProcessInfo.processInfo.arguments
+            if let i = args.firstIndex(of: "--demo-grade"), i + 1 < args.count,
+               let lv = Int(args[i + 1]) {
+                settings.gradeLevel = GradeLevel.allCases.first { $0.level == lv } ?? .grade1
+            }
+            if phase == .home, args.contains("--demo-quiz") {
                 start(wrongOnly: false)
             }
         }
